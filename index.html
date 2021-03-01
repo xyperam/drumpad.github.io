@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>DrumPad</title>
+</head>
+<body>
+    <div class="app">
+        <header>
+            <h1>DrumPad</h1>
+            <p>Playing drum just one tap</p>
+        </header>
+        <div class="pads"> 
+            <div class="pad1" onkeypress="">
+                <audio src="music/hihat-electro.wav" class="sound"></audio>
+            </div>
+            <div class="pad2">
+                <audio src="music/kick-electro01.wav" class="sound"></audio>
+            </div>
+            <div class="pad3">
+                <audio src="music/perc-weirdo.wav" class="sound"></audio>
+            </div>
+            <div class="pad4">
+                <audio src="music/snare-electro.wav" class="sound"></audio>
+            </div>
+            <div class="pad5">
+                <audio src="music/snare-tape.wav" class="sound"></audio>
+            </div>
+            <div class="pad6">
+                <audio src="music/tom-lofi.wav" class="sound"></audio>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+</html>
